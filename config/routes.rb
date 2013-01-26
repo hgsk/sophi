@@ -1,4 +1,9 @@
 Sophi::Application.routes.draw do
+  get "welcome/index"
+
+  resources :welcomes
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
