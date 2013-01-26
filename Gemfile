@@ -47,4 +47,3 @@ gem 'thin'
 gem 'quiet_assets'
 gem 'devise'
 gem 'omniauth'
-
