@@ -28,16 +28,21 @@
           %a.brand(href="#") Sophi
           .container.nav-collapse
             %ul.nav
-              %li= link_to "Link 1", "/path1"
-              %li= link_to "Link 2", "/path2"
-              %li= link_to "Link 3", "/path3"
+              - unless user_signed_in?
+                %li= link_to t('label.signin'), new_user_session_path
+              - else
+                %li= link_to t('label.signout'), destroy_user_session_path
+                %li= link_to t('label.home'), my_home_index_path
 
     .container
-      %p.notice=notice
-      %p.alert=alert
+      - if alert
+        %p.notice=notice
+      - if alert
+        %p.alert=alert
       .row
         .span9
           = bootstrap_flash
+          = render_crumbs
           = yield
         .span3
           .well.sidebar-nav
