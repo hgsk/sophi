@@ -7,3 +7,5 @@ en:
     todo: "ToDo"
     top: "Top"
     home: "Home"
+    signout: "Logout"
+    signin: "Login"
