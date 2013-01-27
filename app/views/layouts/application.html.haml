@@ -33,7 +33,8 @@
               %li= link_to "Link 3", "/path3"
 
     .container
-
+      %p.notice=notice
+      %p.alert=alert
       .row
         .span9
           = bootstrap_flash
@@ -49,6 +50,8 @@
     
       %footer
         %p &copy; Company 2012
+        %p=debug session
+        %p=debug params
     /
       Javascripts
       \==================================================
