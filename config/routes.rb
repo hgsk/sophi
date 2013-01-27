@@ -1,4 +1,9 @@
 Sophi::Application.routes.draw do
+  namespace :my do
+    resources :home
+  end
+  get "my/home"
+
   devise_for :users
 
   get "welcome/index"
