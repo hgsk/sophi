@@ -4,6 +4,9 @@
 %p XXXXXXXXXXXXXXXXXXX
 
 %h1=t 'label.assignment'
+%assignments{:data=>{:assignments=>"#{@assignments.to_json}"}}
+  -@assignments.each do|assignment|
+    %p=assignment.name
 %p XXXXXXXXXXXXXXXXXXX
 %p XXXXXXXXXXXXXXXXXXX
 %p XXXXXXXXXXXXXXXXXXX

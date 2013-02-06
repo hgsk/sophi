@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Title:
+  = @assignment.title
+%p
+  %b Body:
+  = @assignment.body
+%p
+  %b Due:
+  = @assignment.due
+
+= link_to 'Edit', edit_assignment_path(@assignment)
+\|
+= link_to 'Back', assignments_path

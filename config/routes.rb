@@ -1,4 +1,7 @@
 Sophi::Application.routes.draw do
+  resources :assignments
+
+
   namespace :my do
     resources :home
   end
