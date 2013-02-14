@@ -1,0 +1,2 @@
+Fabricator(:hoge) do
+end

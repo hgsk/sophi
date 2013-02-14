@@ -56,3 +56,6 @@ gem 'crummy'
 gem 'video_info'
 gem 'angular-rails'
 gem 'fabrication'
+group :test, :development do
+  gem 'rspec-rails', "~> 2.0"
+end
