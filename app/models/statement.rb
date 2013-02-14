@@ -2,7 +2,12 @@ class Statement
   include Mongoid::Document
   embeds_one :user, store_as: :actor
   embeds_one :verb
-  embeds_one :object
+  
+  #object subclass 
+  embeds_one :activity, store_as: :object
+  embeds_one :agent, store_as: :object
+  embeds_one :statement, store_as: :object
+
   field :result, type: String
   field :context, type: String
   field :timestamp, type: String
