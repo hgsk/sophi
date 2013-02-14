@@ -43,4 +43,9 @@ class User
 
   ## Token authenticatable
   # field :authentication_token, :type => String
+
+  # LRS Attributes
+  field :objectType
+  field :email, as: :mbox
+
 end

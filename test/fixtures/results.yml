@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  score: MyString
+  success: MyString
+  completioon: MyString
+  response: MyString
+  duration: MyString
+  extensions: MyString
+
+two:
+  score: MyString
+  success: MyString
+  completioon: MyString
+  response: MyString
+  duration: MyString
+  extensions: MyString

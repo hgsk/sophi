@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  registration: MyString
+  instructor: MyString
+  team: MyString
+  contextActivities: MyString
+  revision: MyString
+  platform: MyString
+  language: MyString
+  statement: MyString
+  extensions: MyString
+
+two:
+  registration: MyString
+  instructor: MyString
+  team: MyString
+  contextActivities: MyString
+  revision: MyString
+  platform: MyString
+  language: MyString
+  statement: MyString
+  extensions: MyString

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  scaled: MyString
+  raw: MyString
+  min: MyString
+  max: MyString
+
+two:
+  scaled: MyString
+  raw: MyString
+  min: MyString
+  max: MyString
