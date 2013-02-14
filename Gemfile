@@ -42,6 +42,8 @@ gem 'pry'
 gem 'pry-rails'
 gem 'pry-doc'
 gem 'pry_debug'
+gem 'pry-highlight'
+
 gem 'kaminari'
 gem 'twitter-bootstrap-rails'
 gem 'thin'
