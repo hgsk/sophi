@@ -1,13 +1,12 @@
 class Statement
   include Mongoid::Document
-  embeds_one :user, store_as: :actor
+  embeds_one :user #actor
   embeds_one :verb
   
   #object subclass 
-  embeds_one :activity, store_as: :object
-  embeds_one :agent, store_as: :object
-  embeds_one :statement, store_as: :object
-  embeds_one :statement_ref, store_as: :object
+  embeds_one :activity
+  embeds_one :agent
+  embeds_one :statement #statement_ref
 
   embeds_one :result
 
