@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  object_type: MyString
+  name: MyString
+  mbox: MyString
+  mbox_sha1sum: MyString
+  openid: MyString
+  account: MyString
+
+two:
+  object_type: MyString
+  name: MyString
+  mbox: MyString
+  mbox_sha1sum: MyString
+  openid: MyString
+  account: MyString

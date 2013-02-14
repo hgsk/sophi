@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  actor: MyString
+  verb: MyString
+  object: MyString
+  result: MyString
+  context: MyString
+  timestamp: MyString
+  stored: MyString
+  authority: MyString
+  voided: MyString
+
+two:
+  actor: MyString
+  verb: MyString
+  object: MyString
+  result: MyString
+  context: MyString
+  timestamp: MyString
+  stored: MyString
+  authority: MyString
+  voided: MyString

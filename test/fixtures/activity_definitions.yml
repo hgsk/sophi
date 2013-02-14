@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyString
+  type: 
+  interaction_type: MyString
+  extensions: MyString
+
+two:
+  name: MyString
+  description: MyString
+  type: 
+  interaction_type: MyString
+  extensions: MyString
