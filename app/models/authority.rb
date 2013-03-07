@@ -1,5 +1,6 @@
 class Authority
   include Mongoid::Document
-  field :objectType, type: String
+  field :object_type, type: String
   field :member
+  embedded_in :statement
 end

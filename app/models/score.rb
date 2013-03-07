@@ -4,4 +4,5 @@ class Score
   field :raw, type: String
   field :min, type: String
   field :max, type: String
+  embedded_in :result
 end

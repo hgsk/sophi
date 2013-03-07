@@ -1,18 +1,21 @@
 class Statement
   include Mongoid::Document
-  embeds_one :user #actor
+  has_many :user #actor
   embeds_one :verb
   
   #object subclass 
-  embeds_one :activity
-  embeds_one :agent
-  embeds_one :statement #statement_ref
+  has_one :activity
+  has_one :agent
+  has_one :statement #statement_ref
 
   embeds_one :result
+  embeds_one :authority
 
   field :context, type: String
   field :timestamp, type: String
   field :stored, type: String
-  field :authority, type: String
   field :voided, type: String
+
+  #belonging
+  belongs_to :statement
 end

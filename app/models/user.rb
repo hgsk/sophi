@@ -48,4 +48,5 @@ class User
   field :objectType
   field :email, as: :mbox
 
+  belongs_to :statement
 end
